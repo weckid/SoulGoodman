@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url(./assets/font/Satoshi-Variable.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Satoshi", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.nav {
+  position: absolute;
+  top: 48px;
+  left: 671px;
+  width: 576px;
+  height: 65px;
+  background: rgba(218, 197, 167, 0.0509803922);
+  border: 1px solid rgba(218, 197, 167, 0.1490196078);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 16px;
+  padding-left: 32px;
+}
+.nav li {
+  list-style: none;
+}
+.nav li a {
+  text-decoration: none;
+  color: #DAC5A7;
+}
+.nav .button {
+  background-color: #DAC5A7;
+  color: black;
+  padding: 10px 16px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.background_image {
+  background-image: url(/assets/image/69f259439f569e13aa0c67949ffe7920.jpg);
+  width: 1920px;
+  height: 1130px;
+  position: absolute;
+  position: relative;
+  top: 0;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main_text {
+  position: absolute;
+  top: 650px;
+  left: 453px;
+  text-align: center;
+}
+.main_text h1 {
+  font-size: 160px;
+  font-weight: 300;
+  color: #DAC5A7;
+}
+.main_text span {
+  font-size: 160px;
+  font-weight: 300;
+  font-style: italic;
+}
+.main_text p {
+  color: rgba(218, 197, 167, 0.6);
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.logs img {
+  padding-left: 128px;
+}
+
+.container {
+  width: 1400px;
+  display: flex;
+  padding-left: 260px;
+}
+
+.card {
+  width: 445px;
+  height: 280px;
+  border-radius: 2px;
+  background-color: rgba(218, 197, 167, 0.0509803922);
+  border: 1px solid rgba(218, 197, 167, 0.1490196078);
+}
+.card .card_text {
+  padding-left: 48px;
+  padding-top: 48px;
+}
+.card h3 {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(218, 197, 167, 0.6);
+}
+.card h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: rgba(218, 197, 167, 0.6);
+  padding-top: 4px;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(218, 197, 167, 0.6);
+  padding-top: 8px;
+}
+.card .card_info {
+  display: flex;
+  align-items: center;
+  padding-left: 48px;
+  padding-top: 32px;
+  gap: 12px;
+}
+.card .card_info p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #DAC5A7;
+}
+
+.cards {
+  display: flex;
+  gap: 32px;
+}
+
+.Services {
+  padding-top: 60px;
+}/*# sourceMappingURL=style.css.map */
